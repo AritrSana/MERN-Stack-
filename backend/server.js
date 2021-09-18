@@ -5,7 +5,7 @@ const app = express();
 dotenv.config();
 
 app.get("/", (req, res) => {
-  res.send("Hello Bidhan");
+  res.send("Hello World");
 });
 
 app.get("/api/notes", (req, res) => {
